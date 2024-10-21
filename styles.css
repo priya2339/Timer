@@ -1,0 +1,94 @@
+body{
+    background-color: #ede0ff;
+}
+
+.stopwatch{
+    width: 90%;
+    max-width: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.8) , rgba(0,0,0,0.8) url('https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2554.jpg'));
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+    color: #b85858;
+    margin: 200px auto 0;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.8);
+}
+
+i{
+    margin: 20px;
+    color: rgb(117, 112, 112);
+}
+
+
+.stopwatch h1{
+    margin-top: 60px;
+    font-size: 64px;
+    font-weight: 200px;
+}
+
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.stopwatch {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+}
+
+.stopwatch h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button h1 {
+    font-size: 36px;
+    cursor: pointer;
+    color: #333;
+}
+
+.button h1:hover {
+    color: #007bff;
+}
+
+.button h1 i {
+    font-size: 36px;
+}
+
+.button h1:active {
+    transform: scale(0.95);
+}
+
+@media (max-width: 400px) {
+    .stopwatch {
+        width: 90%;
+    }
+
+    .stopwatch h1 {
+        font-size: 36px;
+    }
+
+    .button h1 {
+        font-size: 28px;
+    }
+
+    .button h1 i {
+        font-size: 28px;
+    }
+} 
